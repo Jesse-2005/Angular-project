@@ -1,0 +1,11 @@
+.container{
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    align-items: center;
+    transition: all ease-in-out 1s;
+}
+.container:hover{
+    background-color: #000;
+    color: #fff;
+}
