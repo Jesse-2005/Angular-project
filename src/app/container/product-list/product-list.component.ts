@@ -23,7 +23,7 @@ Product = [
   price: 19.99,
   is_in_inventory: false,
   items_left: 0,
-  imageURL: 'https://example.com/product3.jpg',
+  imageURL: '',
   slug: 'product-1',
   },
 {
@@ -38,7 +38,7 @@ Product = [
   price: 19.99,
   is_in_inventory: false,
   items_left: 0,
-  imageURL: 'https://example.com/product3.jpg',
+  imageURL: '',
   slug: 'product-2',
   },
 {
@@ -53,7 +53,7 @@ Product = [
   price: 19.99,
   is_in_inventory: false,
   items_left: 0,
-  imageURL: 'https://example.com/product3.jpg',
+  imageURL: '',
   slug: 'product-3',
   },
 {
@@ -68,7 +68,7 @@ Product = [
   price: 19.99,
   is_in_inventory: false,
   items_left: 0,
-  imageURL: 'https://example.com/product3.jpg',
+  imageURL: '',
   slug: 'product-4',
   },
 {
@@ -83,7 +83,7 @@ Product = [
   price: 19.99,
   is_in_inventory: false,
   items_left: 0,
-  imageURL: 'https://example.com/product3.jpg',
+  imageURL: '',
   slug: 'product-5',
   },
 {
@@ -98,7 +98,7 @@ Product = [
   price: 19.99,
   is_in_inventory: false,
   items_left: 0,
-  imageURL: 'https://example.com/product3.jpg',
+  imageURL: '',
   slug: 'product-6',
   },
 {
@@ -113,7 +113,7 @@ Product = [
   price: 19.99,
   is_in_inventory: false,
   items_left: 0,
-  imageURL: 'https://example.com/product3.jpg',
+  imageURL: '',
   slug: 'product-7',
   },
 {
@@ -128,7 +128,7 @@ Product = [
   price: 19.99,
   is_in_inventory: false,
   items_left: 0,
-  imageURL: 'https://example.com/product3.jpg',
+  imageURL: '',
   slug: 'product-8',
   },
 {
@@ -143,7 +143,7 @@ Product = [
   price: 19.99,
   is_in_inventory: false,
   items_left: 0,
-  imageURL: 'https://example.com/product3.jpg',
+  imageURL: '',
   slug: 'product-9',
   },
 {
@@ -158,7 +158,7 @@ Product = [
   price: 19.99,
   is_in_inventory: false,
   items_left: 0,
-  imageURL: 'https://example.com/product3.jpg',
+  imageURL: '',
   slug: 'product-10',
   },
 ];
