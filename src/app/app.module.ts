@@ -13,6 +13,7 @@ import { UsersComponent } from './users/users.component';
 import { MessageComponent } from './message/message.component';
 import { SearchComponent } from './container/search/search.component';
 import { ProductListComponent } from './container/product-list/product-list.component';
+import { ProductComponent } from './container/product-list/product/product.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ProductListComponent } from './container/product-list/product-list.comp
     UsersComponent,
     MessageComponent,
     SearchComponent,
-    ProductListComponent
+    ProductListComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,
