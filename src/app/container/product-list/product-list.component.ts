@@ -21,9 +21,9 @@ Product = [
   size: 'One Size',
   color: ['Black', 'Red', 'Yellow', 'Green'],
   price: 19.99,
-  is_in_inventory: false,
+  is_in_inventory: true,
   items_left: 0,
-  imageURL: 'https://example.com/product3.jpg',
+  imageURL: '../../assets/images/shoes.png',
   slug: 'product-1',
   },
 {
@@ -38,7 +38,7 @@ Product = [
   price: 19.99,
   is_in_inventory: false,
   items_left: 0,
-  imageURL: 'https://example.com/product3.jpg',
+  imageURL: '../../assets/images/shoes.png',
   slug: 'product-2',
   },
 {
@@ -51,9 +51,9 @@ Product = [
   size: 'One Size',
   color: ['Black', 'Red', 'Yellow', 'Green'],
   price: 19.99,
-  is_in_inventory: false,
+  is_in_inventory: true,
   items_left: 0,
-  imageURL: 'https://example.com/product3.jpg',
+  imageURL: '../../assets/images/shoes.png',
   slug: 'product-3',
   },
 {
@@ -68,7 +68,7 @@ Product = [
   price: 19.99,
   is_in_inventory: false,
   items_left: 0,
-  imageURL: 'https://example.com/product3.jpg',
+  imageURL: '../../assets/images/shoes.png',
   slug: 'product-4',
   },
 {
@@ -81,9 +81,9 @@ Product = [
   size: 'One Size',
   color: ['Black', 'Red', 'Yellow', 'Green'],
   price: 19.99,
-  is_in_inventory: false,
+  is_in_inventory: true,
   items_left: 0,
-  imageURL: 'https://example.com/product3.jpg',
+  imageURL: '../../assets/images/shoes.png',
   slug: 'product-5',
   },
 {
@@ -98,7 +98,7 @@ Product = [
   price: 19.99,
   is_in_inventory: false,
   items_left: 0,
-  imageURL: 'https://example.com/product3.jpg',
+  imageURL: '../../assets/images/shoes.png',
   slug: 'product-6',
   },
 {
@@ -111,9 +111,9 @@ Product = [
   size: 'One Size',
   color: ['Black', 'Red', 'Yellow', 'Green'],
   price: 19.99,
-  is_in_inventory: false,
+  is_in_inventory: true,
   items_left: 0,
-  imageURL: 'https://example.com/product3.jpg',
+  imageURL: '../../assets/images/shoes.png',
   slug: 'product-7',
   },
 {
@@ -128,7 +128,7 @@ Product = [
   price: 19.99,
   is_in_inventory: false,
   items_left: 0,
-  imageURL: 'https://example.com/product3.jpg',
+  imageURL: '../../assets/images/shoes.png',
   slug: 'product-8',
   },
 {
@@ -141,9 +141,9 @@ Product = [
   size: 'One Size',
   color: ['Black', 'Red', 'Yellow', 'Green'],
   price: 19.99,
-  is_in_inventory: false,
+  is_in_inventory: true,
   items_left: 0,
-  imageURL: 'https://example.com/product3.jpg',
+  imageURL: '../../assets/images/shoes.png',
   slug: 'product-9',
   },
 {
@@ -156,12 +156,32 @@ Product = [
   size: 'One Size',
   color: ['Black', 'Red', 'Yellow', 'Green'],
   price: 19.99,
+  discount:10,
   is_in_inventory: false,
   items_left: 0,
-  imageURL: 'https://example.com/product3.jpg',
+  imageURL: '../../assets/images/shoes.png',
+  slug: 'product-10',
+  },
+{
+  id: 10,
+  name: 'Product 10',
+  description: 'Description for Product 3',
+  brand: 'Brand C',
+  gender: 'Unisex',
+  category: 'Accessories',
+  size: 'One Size',
+  color: ['Black', 'Red', 'Yellow', 'Green'],
+  price: 19.99,
+  discount:10,
+  is_in_inventory: false,
+  items_left: 0,
+  imageURL: '../../assets/images/shoes.png',
   slug: 'product-10',
   },
 ];
 
+totalProductCount = this.Product.length;
+totalProductInStock = this.Product.filter(p => p.is_in_inventory === true).length;
+totalProductOutOfStock = this.Product.filter(p => p.is_in_inventory === false).length;
 
 }
