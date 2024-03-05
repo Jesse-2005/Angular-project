@@ -14,6 +14,7 @@ import { MessageComponent } from './message/message.component';
 import { SearchComponent } from './container/search/search.component';
 import { ProductListComponent } from './container/product-list/product-list.component';
 import { ProductComponent } from './container/product-list/product/product.component';
+import { FilterComponent } from './container/product-list/filter/filter.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { ProductComponent } from './container/product-list/product/product.compo
     MessageComponent,
     SearchComponent,
     ProductListComponent,
-    ProductComponent
+    ProductComponent,
+    FilterComponent
   ],
   imports: [
     BrowserModule,
